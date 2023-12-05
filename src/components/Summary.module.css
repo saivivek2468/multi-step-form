@@ -1,0 +1,69 @@
+.heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #022959;
+  margin-bottom: 11px;
+}
+.paragraph {
+  font-size: 16px;
+  line-height: 1.56;
+  color: #9699aa;
+  margin-bottom: 40px;
+}
+
+.container {
+  padding: 16px 24px 24px;
+  border-radius: 8px;
+  background-color: #f8f9ff;
+  margin-bottom: 30px;
+}
+
+.rowFlex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nameAndDate {
+  font-size: 16px;
+  font-weight: 500;
+  color: #022959;
+}
+.price {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #022959;
+  margin-bottom: 34px;
+}
+.horizontal {
+  width: 100%;
+  height: 1px;
+  opacity: 0.2;
+  background-color: #9699aa;
+  margin-bottom: 16px;
+}
+
+.label {
+  font-size: 14px;
+  line-height: 1.43;
+  color: #9699aa;
+  margin-bottom: 16px;
+}
+
+.labelPrice {
+  font-size: 14px;
+  line-height: 1.43;
+  color: #022959;
+}
+
+.total {
+  font-size: 14px;
+  line-height: 1.43;
+  color: #9699aa;
+}
+.totalPrice {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+  color: #483eff;
+}

@@ -1,0 +1,138 @@
+.plans h1 {
+  margin-bottom: 10px;
+}
+
+.plans .paragraph {
+  margin-bottom: 40px;
+}
+
+.rowFlex {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+.columnFlex {
+  padding: 20px 30px 16px 16px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.columnFlex:hover {
+  border: 1px solid #483eff;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 40px;
+}
+.plan {
+  width: 53px;
+  height: 18px;
+  margin: 0 24px 7px 0;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 500;
+  color: #022959;
+  margin-bottom: 6px;
+}
+.price {
+  font-size: 14px;
+  line-height: 1.43;
+  color: #9699aa;
+  margin-bottom: 6px;
+}
+
+.free {
+  font-size: 12px;
+  color: #022959;
+  font-weight: 500;
+}
+.checkboxContainer {
+  display: flex;
+}
+
+.dateContainer {
+  display: flex;
+  border-radius: 8px;
+  background-color: #f8f9ff;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 20px;
+}
+
+/* //checkbox */
+.button {
+  background-color: #022959;
+  width: 38px;
+  height: 20px;
+  border-radius: 200px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.2s;
+}
+
+.button::before {
+  position: absolute;
+  content: "";
+  background-color: #fff;
+  width: 10px;
+  height: 10px;
+  border-radius: 200px;
+  margin: 5px;
+  transition: 0.2s;
+}
+input:checked + .button {
+  background-color: #022959;
+}
+input:checked + .button::before {
+  transform: translateX(15px);
+}
+
+.input {
+  display: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  align-items: flex-end;
+  height: 100px;
+}
+
+.buttons p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #9699aa;
+  cursor: pointer;
+}
+.buttons button {
+  border: 0;
+  outline: 0;
+  padding: 14px 24px 16px 25px;
+  border-radius: 8px;
+  background-color: #022959;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .rowFlex {
+    flex-direction: column;
+  }
+  .columnFlex {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+  }
+  .icon {
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+}

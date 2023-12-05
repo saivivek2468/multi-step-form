@@ -1,0 +1,68 @@
+.container {
+  max-width: 940px;
+  padding: 20px;
+  margin: 100px auto;
+  padding: 16px 100px 16px 16px;
+  border-radius: 15px;
+  box-shadow: 0 25px 40px -20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .mobileBoxImage {
+    position: relative;
+  }
+  .mobileBoxImage .img img {
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .container {
+    margin-top: 0;
+    position: absolute;
+    top: 115px;
+    max-width: 400px;
+    margin: 0px 20px 0px;
+    padding: 30px;
+  }
+
+  .circle {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #bee2fd;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #022959;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #fff;
+    position: absolute;
+  }
+
+  .step1 {
+    top: 40px;
+    left: 100px;
+  }
+  .step2 {
+    top: 40px;
+    left: 140px;
+  }
+  .step3 {
+    top: 40px;
+    left: 180px;
+  }
+  .step4 {
+    top: 40px;
+    left: 220px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .mobileBoxImage .img {
+    display: none;
+  }
+}

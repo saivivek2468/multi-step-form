@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.paragraph {
+  max-width: 500px;
+  font-size: 16px;
+  line-height: 1.56;
+  color: #9699aa;
+  text-align: center;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #022959;
+}
